@@ -1,0 +1,42 @@
+.o{
+    margin-top: 200px;
+    color:gold;
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 70px;
+}
+.slide{
+    background-color:green;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.text{
+    text-align: center;
+}
+
+.slick-dots li button:before{
+    color:gold;
+    background-color: gold;
+    size: 1px;
+    content: '';
+    border-radius: 50%;
+}
+
+.slick-prev:before, .slick-next:before{
+    color:yellow;
+}
+
+.slick-prev:before {
+    content: '<';
+}
+
+.slick-next:before{
+    content: '>';
+}
